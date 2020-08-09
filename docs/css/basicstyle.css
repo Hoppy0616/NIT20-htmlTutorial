@@ -51,7 +51,7 @@ ul{
     color: white;
 }
 #interest{
-        height: 35vw;
+        height: 28vw;
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);/*背景をグラデーションにする*/
 }
@@ -72,4 +72,8 @@ footer{
     height: 7vw;
     padding: 0 0 0 1vw;
     font-size: 3vw;
+}
+#Rights{
+    margin: 0;
+    padding: 0;
 }
