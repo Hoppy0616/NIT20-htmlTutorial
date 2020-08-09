@@ -1,0 +1,75 @@
+@charset "UTF-8";
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2{
+    margin: 0;
+    font-size: 3vw;
+    padding: 0.5vw 0 0 1.5vw;
+}
+/*リンクの下線を非表示*/
+a,a:visited{
+    text-decoration: none;
+    color:#ffffff;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    height: 6vw;
+}
+#contents{
+    margin: 0;
+    height: 16vw;
+    background-color: #55b9f3;
+    overflow: hidden;
+    /*border-radius: 1px solid #ffffff;*/
+}
+ul{
+    margin: 1.5vw 0 0 0;
+    padding: 0;
+}
+#contents li{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    float: left;/*要素を左並べ*/
+    width: 20vw;
+    height: 4vw;
+    padding: 2vw 0 0 0;
+    margin: 0 1vw 0 3vw;
+    /*ニューモーフィズム調にする*/
+    border-radius: 60px;
+    background: #55b9f3;
+    box-shadow:  20px 20px 60px #489dcf, 
+                 -20px -20px 60px #62d5ff;
+    list-style: none;
+    text-align: center;
+    font-size: 1.3vw;    
+    color: white;
+}
+#interest{
+        height: 25vw;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);/*背景をグラデーションにする*/
+}
+.f-container{
+    padding: 4vw;
+    display: flex;/*FlexBoxを使用*/
+    flex-flow: row wrap;/*要素を左から右に、複数行になる場合は上から下になるように並べる*/
+    justify-content: space-around;/*要素の間隔を均等に配置*/
+}
+/*ロゴの高さを指定*/
+.pic{
+    height: 10vw;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    height: 6vw;
+    padding: 0 0 0 1vw;
+    font-size: 3vw;
+}
