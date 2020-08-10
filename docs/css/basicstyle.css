@@ -3,13 +3,21 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;;
 }
 body{
-    margin: 0;
+    /*固定ヘッダーにする前はmarginの値は全部0*/
+    margin: 100px 0 0 0;
     padding: 0;
 }
 h1,h2{
     margin: 0;
     font-size: 3vw;
     padding: 0.5vw 0 0 1.5vw;
+}
+/*固定ヘッダーの設定*/
+header{
+    margin: 0;
+    width: 100%;
+    top: 0;
+    position: fixed;
 }
 /*リンクの下線を非表示*/
 a,a:visited{
@@ -51,20 +59,21 @@ ul{
     color: white;
 }
 #interest{
-        height: 26vw;
+        height: auto;
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);/*背景をグラデーションにする*/
 }
 .f-container{
-    padding: 4vw;
+    padding: 0;
     display: flex;/*FlexBoxを使用*/
     flex-flow: row wrap;/*要素を左から右に、複数行になる場合は上から下になるように並べる*/
     justify-content: space-around;/*要素の間隔を均等に配置*/
 }
 /*ロゴの高さを指定*/
 .pic{
-    height: 10vw;
-}
+    height: 15vw;
+    margin: 5vw;
+}    
 footer{
     margin: 0;
     background-color: black;
